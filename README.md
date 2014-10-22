@@ -7,19 +7,12 @@
 Overview
 =======
 This is very simple. What you want to do is get the library itself and add it to your Android project.
-Upcoming
-=======
-- [X] Support for hyphenating. @muriloandrade
-- [ ] Support for editable text (while justification is enabled)
-- [ ] More optimizations
 
-*Been very busy lately*
-
-Option 1 (Draw-Based) - Setup
+Setup
 =======
 Looks very accurate and neat. Small issues may arise but can be easily sorted out if users post their issues on Github. To use it, all you have to do is include the `TextViewEx.java` and `TextJustifyUtils.java` in your project. Then you may use as you would the built-in  `TextView`. 
 
-To improve performance on large TextViews, you must enable optimization. To do so, you must use `setDrawingCacheEnabled(bool)`. Uing this increases speed, but it also requires more memory.
+To improve performance on large TextViews, you must enable optimization. To do so, you must use `setDrawingCacheEnabled(bool)`. Using this increases speed, but it also requires more memory.
 
 ```xml
 
@@ -59,51 +52,11 @@ protected void onCreate(Bundle savedInstanceState)
 }
 
 ```
-Option 1 - Result
+Result
 =======
 **Comparison**
 
 ![Logo](http://i.imgur.com/xbzYStc.png)
-
-
-Option 2 (String-Based) - Setup
-=======
-This would be considered a fallback option in the case the previous option did not work for you. To use this, include `TextJustifyUtils.java` and follow the sample code below.
-
-```java
-
-@Override
-protected void onCreate(Bundle savedInstanceState) 
-{
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main); 
-    
-    final TextView txtView = (TextView) findViewById(R.id.textView);
-    txtView.getViewTreeObserver().addOnPreDrawListener(new OnPreDrawListener()
-    {           
-        boolean isJustified = false;
-
-        @Override
-        public boolean onPreDraw() 
-        {
-            if(!isJustified)
-            {
-                TextJustifyUtils.run(txtView);
-                isJustified = true;
-            }
-            
-            return true;
-        }
-        
-    });
-}
-
-```
-Option 2 - Result
-=======
-**Comparison**
-
-![Logo](http://i.imgur.com/L62jFKp.png)
 
 
 Notes
@@ -117,4 +70,5 @@ Contributors
 bluejamesbond
 fscz
 shayanpourvatan
+Saleh-Hassan
 ```
