@@ -1,4 +1,4 @@
-####RTL-JustifyText-Android is an extension of project hosted here [JustifyText-Android](https://github.com/bluejamesbond/TextJustify-Android). As [JustifyText-Android](https://github.com/bluejamesbond/TextJustify-Android) doesn't seem to support RTL scripts like Urdu, Persian, Arabic etc., this projcet is aimed to support these languages.
+####RTL-TextJustify-Android is an extension of project hosted here [TextJustify-Android](https://github.com/bluejamesbond/TextJustify-Android). As [TextJustify-Android](https://github.com/bluejamesbond/TextJustify-Android) doesn't seem to support RTL scripts like Urdu, Persian, Arabic etc., this projcet is aimed to support these languages.
 
 
 ![Logo](https://raw.github.com/bluejamesbond/TextJustify-Android/master/__misc/textjustify%20design%20logo%20%5Ba%5D.png)
