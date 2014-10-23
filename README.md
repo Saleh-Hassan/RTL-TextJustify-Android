@@ -56,7 +56,7 @@ Result
 =======
 **Comparison**
 
-![Logo](http://i.imgur.com/xbzYStc.png)
+![Logo](https://cloud.githubusercontent.com/assets/9351116/4753150/41da7574-5ab4-11e4-8673-7b45da09e119.png)
 
 
 Notes
