@@ -1,7 +1,6 @@
 ####[RTL-TextJustify-Android](https://github.com/Saleh-Hassan/RTL-TextJustify-Android) is an extension of project hosted here [TextJustify-Android](https://github.com/bluejamesbond/TextJustify-Android). As [TextJustify-Android](https://github.com/bluejamesbond/TextJustify-Android) doesn't seem to support RTL scripts like Urdu, Persian, Arabic etc, [RTL-TextJustify-Android](https://github.com/Saleh-Hassan/RTL-TextJustify-Android) is aimed to support these languages.
 
 
-![Logo](https://raw.github.com/bluejamesbond/TextJustify-Android/master/__misc/textjustify%20design%20logo%20%5Ba%5D.png)
 =======
 **Simple Android Full Justification**
 Overview
